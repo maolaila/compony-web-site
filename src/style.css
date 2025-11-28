@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #0f4c81;
+  --text-color: #333;
+  --bg-color: #fff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background: #f4f4f4;
+}
+a { text-decoration: none; color: inherit; transition: 0.3s; }
+ul { list-style: none; }
